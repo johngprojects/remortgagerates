@@ -268,6 +268,7 @@ include "form-header.php";
       </div>
 
       <a href="#" id="mainbtn" class="btnC" onclick="next(true); return false;"></a>
+      <div class="arrow"></div>
       
       <div class="backctr">
          <a id="backbtn" class="hidden" href="#" onclick="previous(); return false;">&lt;&lt; Back to previous question</a>
