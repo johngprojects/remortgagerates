@@ -29,7 +29,7 @@ include "form-header.php";
             <div class="errlbl"><label class="error hidden" for="PRODUCT">This field is required.</label></div>
          </div>
          <div class="formq">
-            <label for="EST_VAL">Property Value (Â£)</label>
+            <label for="EST_VAL">Property Value (£)</label>
             <select id="EST_VAL" name="EST_VAL" class="required">
                <option value="80000" >Less than 80,000</option>
                <option value="85000" >80,000 - 89,999</option>
@@ -74,7 +74,7 @@ include "form-header.php";
             <div class="errlbl"><label class="error hidden" for="EST_VAL">This field is required.</label></div>
          </div>
          <div class="formq">
-            <label for="LOAN_VAL">Amount to Borrow (Â£)</label>
+            <label for="LOAN_VAL">Amount to Borrow (£)</label>
             <select id="LOAN_VAL" name="LOAN_VAL" class="required">
               <option value="" selected="selected">[ select one ]</option>
             </select>
@@ -268,6 +268,7 @@ include "form-header.php";
       </div>
 
       <a href="#" id="mainbtn" class="btnC" onclick="next(true); return false;"></a>
+      <div class="arrow"></div>
 
       <div class="backctr">
          <a id="backbtn" class="hidden" href="#" onclick="previous(); return false;">&lt;&lt; Back to previous question</a>
