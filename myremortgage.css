@@ -398,7 +398,7 @@ and (max-device-width : 1024px){
   position: absolute;
   width: 183px;
   height: 184px;
-  background: url(http://www.remortgagerates.org/forms/myremortgage/images/arrow-edit2.png) no-repeat;
+  background: url(images/arrow-edit2.png") no-repeat;
   top: 210px;
   left: -35px;
 }
